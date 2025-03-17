@@ -3,10 +3,6 @@ interface PersonPrototype {
     lastName: string;
 }
 
-interface PersonPrototype {
-    age: number;
-}
-
 
 function getFullName(person: PersonPrototype) {
   return `${person.firstName} ${person.lastName}`;
